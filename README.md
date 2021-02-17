@@ -12,3 +12,5 @@
  (this is just another mod for me to get used with fabric modding :p)
 
 mod probably needs fabric api
+
+(this is experimental and there's no point in downloading this when you have other food mods out there that add orange juice and probably more food)
