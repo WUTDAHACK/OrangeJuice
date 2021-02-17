@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "orangejuice",
+  "version": "${version}",
+  "name": "OrangeJuice",
+  "description": "adds the best type of juice - orange juice",
+  "authors": [ "WUTDAHACK" ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/orangejuice/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "wutdahack.oj.client.OrangeJuiceClient"
+    ],
+    "main": [
+      "wutdahack.oj.OrangeJuice"
+    ]
+  },
+  "mixins": [
+    "oj.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.1",
+    "fabric": "*",
+    "minecraft": "1.16.4"
+  }
+}
